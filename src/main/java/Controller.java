@@ -18,6 +18,7 @@ public class Controller {
     Intervals intervals;
     private boolean pause = false;
     private boolean startAfterStop = false;
+    boolean a = false;
     private int seconds;
 
     public Label timeLabel;
@@ -37,18 +38,22 @@ public class Controller {
         public Integer call() throws InterruptedException {
             setSeconds();
 
-            for(int i = seconds; i>=0; i--)
+            for(int i = 3; i>=0; i--)
             {
+                System.out.println(i);
+                if (startAfterStop){
+                    synchronized (this){
+                setSeconds();
+                        i = seconds;
+                        a = true;
+                        timerTask.wait();
+
+ }
+                }
                 if (pause){
                     synchronized (this){
                         timerTask.wait();
                     }
-                }
-                if(startAfterStop)cancel();
-                if (isCancelled()){
-                    setSeconds();
-                  //  timeLabel.textProperty().unbind();
-                    break;
                 }
                 updateMessage(timeConversion(i));
                 if(i == 0) updateMessage("Time is Over");
@@ -70,8 +75,9 @@ public class Controller {
         // timeLabel.textProperty().unbind();
         //timerTask.cancel();
         startAfterStop =  true;
-        timeLabel.textProperty().unbind();
-        timeLabel.setText(timeConversion(seconds));
+       // timeLabel.textProperty().unbind();
+       // t.interrupt();
+       // timeLabel.setText(timeConversion(seconds));
         //timeLabel.setText("TIME");
     }
 
@@ -83,7 +89,15 @@ public class Controller {
 
     @FXML
     private void startButtonClick(){
-      //  timeLabel.textProperty().bind(timerTask.messageProperty());
+        timeLabel.textProperty().bind(timerTask.messageProperty());
+        if(startAfterStop){
+          //  timeLabel.setText(timeConversion(seconds));
+            synchronized (timerTask){
+                startAfterStop=false;
+                System.out.println(7);
+                timerTask.notify();
+            }
+        }
         if((!$30MinRadio.isSelected()
                 && !$45MinRadio.isSelected()
                 && !$60MinRadio.isSelected())){

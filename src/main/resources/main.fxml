@@ -60,7 +60,7 @@
       </ColorAdjust>
    </effect>
    <center>
-      <Label fx:id="timeLabel" stylesheets="@DarkTheme.css" text="TIME" BorderPane.alignment="CENTER">
+      <Label fx:id="timeLabel" styleClass="label-time" stylesheets="@DarkTheme.css" text="TIME" BorderPane.alignment="CENTER">
          <font>
             <Font size="54.0" />
          </font>
