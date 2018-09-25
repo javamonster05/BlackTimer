@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27387961-3d18-4f08-aaf7-3641bd46e3e5" name="Default" comment="first commit&#10;&#10;(cherry picked from commit 95a76dfc32a50184f60075279ea5ef2620bf9102)">
       <change beforePath="$PROJECT_DIR$/../BlackTimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/src/main/java/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/src/main/resources/DarkTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/src/main/resources/DarkTheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/target/classes/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/target/classes/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/target/classes/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/target/classes/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/target/classes/DarkTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/target/classes/DarkTheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackTimer/target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackTimer/target/classes/main.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -215,7 +206,7 @@
     <property name="SearchEverywhereHistoryKey" value="workDone&#9;PSI&#9;JAVA://javafx.concurrent.Worker#workDoneProperty" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///SceneBuilder/SceneBuilder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..////SceneBuilder/SceneBuilder.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -334,11 +325,12 @@
       <workItem from="1537349204103" duration="11931000" />
       <workItem from="1537466032840" duration="4519000" />
       <workItem from="1537470711980" duration="34000" />
+      <workItem from="1537566769476" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69484000" />
+    <option name="totallyTimeSpent" value="69535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,6 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
@@ -365,7 +358,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
       <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24966443" />
@@ -376,42 +369,42 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4017094" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24966443" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4017094" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.4017094" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,12 +602,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/java/Intervals.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,12 +624,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="86" lean-forward="true" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/java/Intervals.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -663,12 +656,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/java/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -791,12 +784,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/digits.TTF" />
     <entry file="file://$PROJECT_DIR$/../BlackTimer/src/main/resources/DarkTheme.css">
