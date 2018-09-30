@@ -10,7 +10,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.util.Duration;
 
-import java.util.concurrent.TimeUnit;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+
 
 
 public class Controller {
@@ -45,7 +50,7 @@ public class Controller {
                     synchronized (this){
                 setSeconds();
                         i = seconds;
-                        a = true;
+//                        a = true;
                         timerTask.wait();
 
  }
@@ -56,7 +61,10 @@ public class Controller {
                     }
                 }
                 updateMessage(timeConversion(i));
-                if(i == 0) updateMessage("Time is Over");
+                if(i == 0) {
+                    updateMessage("Time is Over");
+                    playMelody();
+                }
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
@@ -71,14 +79,15 @@ public class Controller {
         }
     };
 
+    private void playMelody(){
+        String bip = "sirena.wav";
+        Media hit = new Media(new File(bip).toURI().toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(hit);
+        mediaPlayer.play();
+    }
+
     public void stopButtonClick() {
-        // timeLabel.textProperty().unbind();
-        //timerTask.cancel();
         startAfterStop =  true;
-       // timeLabel.textProperty().unbind();
-       // t.interrupt();
-       // timeLabel.setText(timeConversion(seconds));
-        //timeLabel.setText("TIME");
     }
 
     private void newTimerThread(){
