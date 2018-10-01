@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane blendMode="DARKEN" depthTest="DISABLE" pickOnBounds="false" prefHeight="293.0" prefWidth="704.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane blendMode="DARKEN" depthTest="DISABLE" pickOnBounds="false" prefHeight="294.0" prefWidth="706.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <top>
       <ToolBar prefHeight="41.0" prefWidth="570.0" styleClass="menu" stylesheets="@DarkTheme.css" BorderPane.alignment="CENTER">
          <items>
